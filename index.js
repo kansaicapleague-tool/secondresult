@@ -69,7 +69,7 @@ function changeClick(){
 
 function downloadClick(){
     var canvas = document.getElementById("canvas");
-    const name = 'firstresult.png';
+    const name = 'secondresult.png';
     const a = document.createElement('a');
 
     a.href = canvas.toDataURL();
